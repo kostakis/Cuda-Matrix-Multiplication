@@ -1,16 +1,16 @@
 # Cuda-Matrix-Multiplication
 
 A basic example of how to do matrix multiplcation with cuda and cuBLAS library.
-In order for the example to work you must have an Nvidia GPU supporting CUDA.
+In order for the example to work you must have an Nvidia GPU supporting CUDA.  
 Multiplcations are done by using ```cublasGemmEx``` method.
 
 # Overview
 
 This simple app does the basic matrix multplication A X B = C
 
-A = rowsA * rank
-B = rank * colsB
-C = rowsA * colsB
+A = rowsA * rank  
+B = rank * colsB  
+C = rowsA * colsB  
 
 Arrays are 2d and are declared using single raw pointers
 
